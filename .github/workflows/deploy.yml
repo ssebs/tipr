@@ -1,0 +1,27 @@
+---
+name: Deployment
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+      - users: actions/checkout@v1
+      - name: Use node ${{matrix.node-version}}
+        uses: action/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install pkgs
+        run: npm i
+      - name: Build
+        run: npm run build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./build
