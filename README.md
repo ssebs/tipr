@@ -1,4 +1,5 @@
 # Tipr
+![Deployment](https://github.com/ssebs/tipr/workflows/Deployment/badge.svg)
 
 A simple tip calculator.
 
