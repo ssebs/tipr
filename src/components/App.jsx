@@ -1,15 +1,14 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import Header from "./Header";
 import TipCalc from "./TipCalc";
 
 const App = () => {
   return (
-    <div>
-      <Container>
-        <h1>Tipr</h1>
-        <TipCalc />
-      </Container>
-    </div>
+    <>
+      <Header />
+      <TipCalc />
+    </>
   );
 };
 
