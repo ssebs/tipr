@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/tipr/static/css/main.71da87fc.chunk.css",
-    "main.js": "/tipr/static/js/main.45335cb7.chunk.js",
-    "main.js.map": "/tipr/static/js/main.45335cb7.chunk.js.map",
+    "main.js": "/tipr/static/js/main.ec40c380.chunk.js",
+    "main.js.map": "/tipr/static/js/main.ec40c380.chunk.js.map",
     "runtime-main.js": "/tipr/static/js/runtime-main.67a6bed6.js",
     "runtime-main.js.map": "/tipr/static/js/runtime-main.67a6bed6.js.map",
-    "static/js/2.a59ff4b3.chunk.js": "/tipr/static/js/2.a59ff4b3.chunk.js",
-    "static/js/2.a59ff4b3.chunk.js.map": "/tipr/static/js/2.a59ff4b3.chunk.js.map",
+    "static/js/2.d030c130.chunk.js": "/tipr/static/js/2.d030c130.chunk.js",
+    "static/js/2.d030c130.chunk.js.map": "/tipr/static/js/2.d030c130.chunk.js.map",
     "index.html": "/tipr/index.html",
     "static/css/main.71da87fc.chunk.css.map": "/tipr/static/css/main.71da87fc.chunk.css.map",
-    "static/js/2.a59ff4b3.chunk.js.LICENSE.txt": "/tipr/static/js/2.a59ff4b3.chunk.js.LICENSE.txt"
+    "static/js/2.d030c130.chunk.js.LICENSE.txt": "/tipr/static/js/2.d030c130.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.67a6bed6.js",
-    "static/js/2.a59ff4b3.chunk.js",
+    "static/js/2.d030c130.chunk.js",
     "static/css/main.71da87fc.chunk.css",
-    "static/js/main.45335cb7.chunk.js"
+    "static/js/main.ec40c380.chunk.js"
   ]
 }
