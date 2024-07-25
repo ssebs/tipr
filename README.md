@@ -1,7 +1,7 @@
 # Tipr
 ![Deployment](https://github.com/ssebs/tipr/workflows/Deployment/badge.svg)
 
-A simple tip calculator.
+A tip calculator that shows the tip amount and the total amount.
 
 https://ssebs.github.io/tipr/
 
