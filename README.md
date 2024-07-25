@@ -5,6 +5,8 @@ A simple tip calculator.
 
 https://ssebs.github.io/tipr/
 
+![tipr screenshot](./tipr.png)
+
 ## Usage
 - Dev:
   - Clone this repo
